@@ -1,0 +1,64 @@
+/* Custom styling */
+
+@import '../bootstrap/less/bootstrap.less';
+
+@globalFont: "Courier New", Courier, monospace;
+
+html, body {
+	font-family: @globalFont;
+	height: 100%;
+}
+
+/* 	Method 3 for vertical alignment 
+	http://blog.themeforest.net/tutorials/vertical-centering-with-css/ */
+
+@contentHeight: 600px;
+@contentWidth: 906px;
+
+#floater {
+	float: left; 
+	height: 50%; 
+	margin-bottom: -@contentHeight/2;
+}
+#content-container {
+	clear: both; 
+	height: @contentHeight; 
+	position: relative;
+}
+
+#content {
+	height: @contentHeight;
+	position: relative;
+}
+
+#image
+{    
+	height: @contentHeight;
+	// Interferes with centering
+    // position:absolute;
+    top:0;
+	
+}
+.center {
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#text
+{
+	width: @contentWidth;
+    z-index:100;
+    position:absolute;    
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+	text-align: center;
+}
+
+
+
+
+
