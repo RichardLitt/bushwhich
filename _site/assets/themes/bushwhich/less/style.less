@@ -3,10 +3,27 @@
 @import '../bootstrap/less/bootstrap.less';
 
 @globalFont: "Courier New", Courier, monospace;
+@black: #000;
+@white: #fff;
 
 html, body {
 	font-family: @globalFont;
 	height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+	font-family: @globalFont;
+	color: @black;
+}
+
+h1, h3 {
+	font-weight: 800;
+	text-decoration: underline;
+}
+
+i.fa-play-circle-o {
+	color: #00CC00;
+	line-height: 300px;
 }
 
 /* 	Method 3 for vertical alignment 
@@ -46,12 +63,12 @@ html, body {
 	}
 #text
 {
-	width: @contentWidth;
+	width: 100%;
     z-index:100;
     position:absolute;    
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	//margin-left: ;
+	//margin-right: 100%-(@contentWidth/2);
     color:white;
     font-size:24px;
     font-weight:bold;
