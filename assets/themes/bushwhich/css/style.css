@@ -1960,9 +1960,12 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+li {
   font-family: "Courier New", Courier, monospace;
-  color: #000000;
+  color: #ffffff;
+  background-color: rgba(1, 1, 1, 0.5);
+  font-weight: 200;
 }
 h1,
 h3 {
@@ -2013,4 +2016,25 @@ i.fa-play-circle-o {
   margin-left: auto;
   margin-right: auto;
   height: 600px;
+}
+.copy {
+  height: 400px;
+}
+.choice {
+  position: relative;
+  height: 200px;
+}
+ol {
+  width: 906px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0px;
+  vertical-align: bottom;
+  -webkit-padding-start: 0px;
+  padding-left: 0px;
+  list-style-position: inside;
+  list-style-type: katakana;
+}
+ol li {
+  text-align: center;
 }
