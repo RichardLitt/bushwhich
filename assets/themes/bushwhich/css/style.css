@@ -2000,10 +2000,17 @@ i.fa-play-circle-o {
 }
 #text {
   width: 100%;
+  top: 0;
   z-index: 100;
   position: absolute;
   color: white;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+}
+#text .inner-text {
+  width: 906px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
 }

@@ -61,14 +61,20 @@ i.fa-play-circle-o {
 		margin-left: auto; 
 		margin-right: auto; 
 	}
-#text
-{
+#text {
 	width: 100%;
-    z-index:100;
-    position:absolute;    
+	.inner-text {
+		width: @contentWidth;
+		// display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: @contentHeight;
+	}
+	//height: @contentHeight;
+	top: 0;
+    z-index: 100;
+    position: absolute;    
 	text-align: center;
-	//margin-left: ;
-	//margin-right: 100%-(@contentWidth/2);
     color:white;
     font-size:24px;
     font-weight:bold;
