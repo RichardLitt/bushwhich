@@ -1,9 +1,3 @@
----
-layout: folio
-title: "121"
-image: "121.jpg"
----
-{% include JB/setup %}
 
 <div class="copy">
 	<p></p>

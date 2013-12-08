@@ -1967,6 +1967,15 @@ li {
   background-color: rgba(1, 1, 1, 0.5);
   font-weight: 200;
 }
+a {
+  color: #ffffff;
+}
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: #ffffff;
+}
 h1,
 h3 {
   font-weight: 800;
