@@ -6,21 +6,9 @@ http://bushwhich.com/pages.html
 http://bushwhich.com/sitemap.txt
 http://bushwhich.com/tags.html
 
-http://bushwhich.com/portfolio/340.html
-http://bushwhich.com/portfolio/339.html
-http://bushwhich.com/portfolio/338.html
-http://bushwhich.com/portfolio/337.html
-http://bushwhich.com/portfolio/336.html
 http://bushwhich.com/portfolio/335.html
-http://bushwhich.com/portfolio/334.html
-http://bushwhich.com/portfolio/333.html
-http://bushwhich.com/portfolio/332.html
-http://bushwhich.com/portfolio/331.html
 http://bushwhich.com/portfolio/330.html
-http://bushwhich.com/portfolio/329.html
-http://bushwhich.com/portfolio/328.html
 http://bushwhich.com/portfolio/327.html
-http://bushwhich.com/portfolio/326.html
 http://bushwhich.com/portfolio/325.html
 http://bushwhich.com/portfolio/324.html
 http://bushwhich.com/portfolio/323.html
