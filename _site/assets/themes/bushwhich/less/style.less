@@ -1,0 +1,124 @@
+/* Custom styling */
+
+@import '../bootstrap/less/bootstrap.less';
+
+@globalFont: "Courier New", Courier, monospace;
+@black: #000;
+@white: #fff;
+
+html, body {
+	font-family: @globalFont;
+	height: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+	font-family: @globalFont;
+	color: @white;
+	background-color: rgba(1,1,1,.5);
+	font-weight: 200;
+}
+.explanatory {
+	font-size: 10px;
+}
+
+a {
+	color: @white;
+	&:hover, &:active, &:focus, &:visited {
+		color: @white;
+	}
+}
+
+
+h1, h3 {
+	font-weight: 800;
+	text-decoration: underline;
+}
+
+i.fa-play-circle-o {
+	color: #00CC00;
+	line-height: 300px;
+}
+
+/* 	Method 3 for vertical alignment 
+	http://blog.themeforest.net/tutorials/vertical-centering-with-css/ */
+
+@contentHeight: 600px;
+@contentWidth: 906px;
+
+#floater {
+	float: left; 
+	height: 50%; 
+	margin-bottom: -@contentHeight/2;
+}
+#content-container {
+	clear: both; 
+	height: @contentHeight; 
+
+	position: relative;
+}
+
+#content {
+	height: @contentHeight;
+	width: @contentWidth;
+	margin: 0px auto;
+	position: relative;
+}
+
+#image
+{    
+	height: @contentHeight;
+	// Interferes with centering
+    // position:absolute;
+    top:0;
+	
+}
+.center {
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto; 
+	}
+#text {
+	width: 100%;
+	.inner-text {
+		width: @contentWidth;
+		// display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: @contentHeight;
+	}
+	height: @contentHeight;
+	top: 0;
+    z-index: 100;
+    position: absolute;    
+	text-align: center;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+	text-align: center;
+}
+
+.copy {
+	height: 400px;
+}
+.choice {
+	position: relative;
+	height: 200px;
+}
+
+ol {
+	width: @contentWidth;
+	li {
+		text-align: center;
+	}
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0px;
+	vertical-align: bottom;
+	-webkit-padding-start: 0px;
+	padding-left: 0px;
+	list-style-position: inside;
+	list-style-type:katakana;
+}
+
+
+
