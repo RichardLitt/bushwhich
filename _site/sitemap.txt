@@ -1,5 +1,6 @@
 
 http://bushwhich.com/404.html
+http://bushwhich.com/about.html
 http://bushwhich.com/archive.html
 http://bushwhich.com/index.html
 http://bushwhich.com/pages.html
@@ -16,15 +17,11 @@ http://bushwhich.com/portfolio/322.html
 http://bushwhich.com/portfolio/321.html
 http://bushwhich.com/portfolio/320.html
 http://bushwhich.com/portfolio/319.html
-http://bushwhich.com/portfolio/318.html
 http://bushwhich.com/portfolio/317.html
-http://bushwhich.com/portfolio/316.html
-http://bushwhich.com/portfolio/315.html
 http://bushwhich.com/portfolio/314.html
 http://bushwhich.com/portfolio/313.html
 http://bushwhich.com/portfolio/312.html
 http://bushwhich.com/portfolio/311.html
-http://bushwhich.com/portfolio/310.html
 http://bushwhich.com/portfolio/309.html
 http://bushwhich.com/portfolio/308.html
 http://bushwhich.com/portfolio/307.html
@@ -44,13 +41,10 @@ http://bushwhich.com/portfolio/294.html
 http://bushwhich.com/portfolio/293.html
 http://bushwhich.com/portfolio/292.html
 http://bushwhich.com/portfolio/291.html
-http://bushwhich.com/portfolio/290.html
 http://bushwhich.com/portfolio/289.html
 http://bushwhich.com/portfolio/288.html
 http://bushwhich.com/portfolio/287.html
 http://bushwhich.com/portfolio/286.html
-http://bushwhich.com/portfolio/285.html
-http://bushwhich.com/portfolio/284.html
 http://bushwhich.com/portfolio/283.html
 http://bushwhich.com/portfolio/282.html
 http://bushwhich.com/portfolio/281.html
