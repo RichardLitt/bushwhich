@@ -1999,6 +1999,8 @@ i.fa-play-circle-o {
 }
 #content {
   height: 600px;
+  width: 906px;
+  margin: 0px auto;
   position: relative;
 }
 #image {
